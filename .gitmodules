@@ -1,0 +1,3 @@
+[submodule "third_party/luaffifb"]
+	path = third_party/luaffifb
+	url = https://github.com/facebookarchive/luaffifb
