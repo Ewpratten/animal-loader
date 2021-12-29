@@ -3,7 +3,7 @@
 [![Clippy](https://github.com/Ewpratten/animal-loader/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/animal-loader/actions/workflows/clippy.yml)
 
 
-`animal-loader` (A not-so-acronym for "A Native Mod Loader") is an experimental, unfinished project to allow the @kleientertainment games [Don't Starve](https://www.klei.com/games/dont-starve) and [Don't Starve Together](https://www.klei.com/games/dont-starve-together) to load native mods written in rust, and support WebAssembly plugins.
+`animal-loader` (A not-so-acronym for "A Native Mod Loader") is an experimental, unfinished project to allow the [@kleientertainment](https://github.com/kleientertainment/) games [Don't Starve](https://www.klei.com/games/dont-starve) and [Don't Starve Together](https://www.klei.com/games/dont-starve-together) to load native mods written in rust, and support WebAssembly plugins.
 
 I started this project with very little knowledge of how LUA handles FFI, and quickly learned my way around the system, then was immediately hit with the roadblock of Klei disabling dynamic library loading in their game (which requires a re-compile to enable). So, I decided to just leave this project as-is in case it benefits someone else, or I need some of the code here later.
 
