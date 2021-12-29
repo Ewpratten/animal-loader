@@ -1,4 +1,3 @@
-#![doc = include_str!("../README.md")]
 #![deny(unsafe_code)]
 #![warn(
     clippy::all,
@@ -64,3 +63,8 @@
     nonstandard_style,
     rust_2018_idioms
 )]
+
+/// To be called from DST when the loader is loaded
+pub extern "C" fn on_load() {
+    println!("Hello, DST world!");
+}

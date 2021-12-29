@@ -1,0 +1,13 @@
+name = "Animal Loader"
+version = "0.1.0"
+description = "A Native Mod Loader for DST"
+author = "Evan Pratten <ewpratten@gmail.com>"
+forumthread = ""
+api_version = 10
+-- priority = -1001
+dont_starve_compatible = false
+reign_of_giants_compatible = false
+dst_compatible = true
+all_clients_require_mod = false
+client_only_mod = true
+server_filter_tags = {}
